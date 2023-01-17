@@ -1,0 +1,40 @@
+body {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+  display: flex;
+  align-items: stretch;
+}
+
+input {
+  width: 70vw;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+button {
+  margin-left: 1rem;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+}
+
+#output-area {
+  background-color: rgba(36, 34, 34, 0.174);
+  min-height: 4rem;
+  width: 75vw;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+#output-area.showing {
+  opacity: 1;
+}
